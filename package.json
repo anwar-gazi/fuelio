@@ -1,0 +1,44 @@
+{
+  "name": "fuelio_clone.node",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "vehicle fuel expense tracker",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/minhajme/fuelio.node.git"
+  },
+  "keywords": [
+    "car",
+    "fuel",
+    "expense",
+    "tracker"
+  ],
+  "bugs": {
+    "url": "https://github.com/minhajme/fuelio.node/issues"
+  },
+  "homepage": "https://github.com/minhajme/fuelio.node#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "node runtests.mjs",
+    "prettier": "",
+    "eslint": "eslint .",
+    "run": "node index.mjs",
+    "redis": "redis"
+  },
+  "author": "Minhajul Anwar",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "redis": "^4.6.5",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.2/xlsx-0.19.2.tgz"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.2",
+    "eslint": "^8.37.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-playwright": "^0.12.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "2.8.7"
+  }
+}
